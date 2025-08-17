@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+🌍 월드 파워 랜드
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+하나의 확장된 세상을 바꾸는 힘 World Power Land는 전 세계를 위한 확장형 커터입니다. 사용자는 원하는 나라의 문자열을 후원(1픽셀 = $1)하면 해당 대상이 점점 성장하며 새로운 색으로 진화합니다.
 
-## Available Scripts
+작은 후원자들이 모여서 다양한 세계를 설명합니다. 당신의 선택은 곧 세계의 색이 됩니다.
 
-In the project directory, you can run:
+🚀 프로젝트 비전
 
-### `npm start`
+게임처럼 즐거운 기부 → 클릭 한 번으로 세계에 위치를 남길 수 있습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+데이터 기반의 관리 → 내역이 되기를 바랍니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+글로벌 참여 → 나만을 이해하기 위해 함께 참여하는 컬러풀한 세계.
 
-### `npm test`
+🎨 정글 색상 유지
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+각 발리는 고급 기술에 따라 색상이 다음과 새롭게 진화합니다:
 
-### `npm run build`
+⚪ White → 아직 후원이 없는 상태
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🟡 노란색 → 희망의 시작
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🟢 Green → 가능성이 커지는 단계
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔵 파란색 → 안정과 신뢰의 상징
 
-### `npm run eject`
+🔷 해군 → 깊이가 강한 느낌
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🟣 Purple → 특별한 가치가 있는 곳
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔴 레드 → 세계를 끌어오는 핵심 발코니
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✨ 주요 기능
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📍 인터랙티브 월드 맵: 드래그 & 줌으로 컨테이너 탐색
 
-## Learn More
+🖱️ 나비 선택 & 후원: 원하는 국가의 나비를 선택하고 직접 참여
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎶 UX 강화 요소:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+모드 다크지원
 
-### Code Splitting
+다양한 문자열 선택 효과
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+마우스 호버 애니메이션
 
-### Analyzing the Bundle Size
+색상표 보기툴팁
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📊 연구원 데이터 분석: 관광 현황이 지도에 실시간 업데이트
 
-### Making a Progressive Web App
+🛠️ 기술 그리드
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+프론트엔드: React(최신 버전), Tailwind CSS
 
-### Advanced Configuration
+지도용: 캔버스 기반 맞춤형 엔진
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+상태 관리: React Hooks, Context API
 
-### Deployment
+향후 확장:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+WebSocket을 리셉션에서
 
-### `npm run build` fails to minify
+암호화폐/명목화폐 마이닝 발송
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+your 프로젝트 구조 src/ ├─ Components/ # UI 구성 요소 ├─ lib/ # 용도 및 색상/지도 데이터 ├─ 페이지/ #쪽 페이지 └─ WorldPowerLand.jsx # 메인에 있었습니다
+
+🌐 참여 방법
+
+원하는 국가의 문자열을 선택하세요.
+
+후원($1 = 1픽셀)을 진행합니다.
+
+가변의 색상이 업데이트되어 세계가 변합니다.
+
+💡 우리의 약속
+
+모든 후원은 내 역은으로 표시됩니다.
+
+다음과 같은 가능성이 있는 프로젝트가 아닌, 장기적으로 유지되는 플랫폼을 지원합니다.
+
+: 작은 케이크가 모여서 등록됩니다.
+
+#🏆 슬로건
+
+"세상을 칠하고, 미래에 힘을 실어주세요." (세상을 물들이고, 미래를 구성자.)
